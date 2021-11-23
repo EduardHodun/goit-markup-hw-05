@@ -31,7 +31,7 @@
                             <nav class="header-nav">
                             
                                 <ul class="nav-menu list ">
-                                    <li class="nav-menu-item"><a class="current link nav-menu-link" href="./index.html">Студия</a></li>
+                                    <li class="nav-menu-item "><a class="current current-line link nav-menu-link" href="./index.html">Студия</a></li>
                                     <li class="nav-menu-item"><a class="link nav-menu-link" href="./portfolio.html">Портфолио</a></li>
                                     <li class="nav-menu-item"><a class="link nav-menu-link" href="./contacts.html">Контакты</a></li>
                                 </ul>
@@ -88,7 +88,7 @@
                         
                         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
 
-                        <button class="btn hero-btn" type="button">Заказать услугу</button>
+                        <button class="btn hero-btn" type="button" data-modal-open>Заказать услугу</button>
                     </div>
                 </section>
 
@@ -157,12 +157,21 @@
                             <ul class="list">
                                 <li class="jobs-list-item">
                                     <img src="./images/jobs/box-1.jpg" alt="Обработка алгоритмов" width="370" height="294">
+                                    <div class="jobs-label">
+                                        <p class="jobs-label-text">Десктопные приложения</p>
+                                    </div>
                                 </li>
                                 <li class="jobs-list-item">
                                     <img src="./images/jobs/box-2.jpg" alt="Поиск телефонов" width="370" height="294">
+                                    <div class="jobs-label">
+                                        <p class="jobs-label-text">Мобильные приложения</p>
+                                    </div>
                                 </li>
                                 <li class="jobs-list-item">
                                     <img src="./images/jobs/box-3.jpg" alt="Цветовая палитра" width="370" height="294">
+                                    <div class="jobs-label">
+                                        <p class="jobs-label-text">Дизайнерские решения</p>
+                                    </div>
                                 </li>
                             </ul>
 
@@ -561,7 +570,23 @@
             
 
         </footer>
+
+        <div class="backdrop is-hidden" data-modal>
+
+            <div class="modal">
+                <button type="button" class="modal-btn" data-modal-close>
+
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/svg/icons.svg#icon-close-black"></use>
+                    </svg>
+                </button>
+
+            </div>
+               
+
+        </div>
     
+        <script src="./js/modal.js"></script>
 </body>
 
 </html>
