@@ -313,7 +313,7 @@ bg-тёмно серый---2F303A
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/bg/hero-bg.jpg);
+    url(../images/bg/new.jpg);
 
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -345,7 +345,7 @@ bg-тёмно серый---2F303A
 
   margin-bottom: 30px;
 
-  color: var(--primary-title-color);
+  color: red;
 }
 
 .hero-btn {
